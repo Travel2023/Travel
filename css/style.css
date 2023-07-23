@@ -1,0 +1,226 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+@font-face {
+    font-family: "Righteous";
+    src: url("../fonts/BalooChettan-Regular.ttf");
+    src: url("../fonts/BalooChettan-Regular.ttf");
+}
+
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(css/font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.80857;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #1f1f1f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    font-weight: normal;
+    line-height: normal;
+    color: #111111;
+}
+
+h1 {
+    font-size: 24px
+}
+
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 18px
+}
+
+h4 {
+    font-size: 16px
+}
+
+h5 {
+    font-size: 14px
+}
+
+h6 {
+    font-size: 13px
+}
+
+
+
+p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000;
+}
+
+a {
+    color: #222222;
+}
+
+/* about section start */
+
+.about_section {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.about_taital_main {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 30px;
+}
+
+
+.about_taital {
+    font-size: 40px;
+    color: #1f1f1f;
+    font-weight: bold;
+}
+
+.about_text {
+    font-size: 16px;
+    color: #1f1f1f;
+    padding: 30px;
+}
+
+.container-fluid{
+    align-items: center;
+}
+
+/* ---------------------- Start of vehicle form ------------------ */
+.vehicle_card_padding{
+    padding: 100px;
+}
+.card_vehicle{
+    text-align: left;
+    background-color: #1f628d;
+    padding: 30px;
+    padding-top: 80px;
+}
+.white_vehicle{
+    color: white;
+    font-weight: bold;
+}
+.btn_vehicle{
+    background-color: #1f628d;
+    border-color: #fff;
+    border-width: 4px;
+}
+.btn_vehicle:hover{
+    background-color: #000; 
+    border-color: #fff;
+}
+
+/* ---------------------- End of vehicle form ------------------ */
+
+
+
+/* ---------------------------- travel from --------------------- */
+.firstTable{
+    border: 3px solid;
+    width: 65%;
+}
+.firstTable tr td{
+    border: 1px solid;
+    padding-left: 10px;
+    /* font-size: 16px; */
+}
+.firstTable th{
+
+    text-align: center;
+    color: #fff;
+    background-color: #0c6082;
+}
+
+
+
+.item_center{
+    align-items: center;
+}
+.padding_top_button_bar{
+    padding-top: 20px;
+}
+
+
+
+
+.item_center div{
+    padding-bottom: 8px;
+}
+
+.print_btn{
+    float: right;
+    padding-right: 40px;
+}
+
+.blue{
+    color: #0c6082;
+}
+
+/* ---------- Card to Pax -------------------- */
+.card_pax{
+    background-color: transparent !important;
+    padding: 30px;
+    padding-top: 80px;
+    box-shadow: 20px 20px 18px #000;
+}
+
+.btn_pax{
+    background-color: #fff;
+    border-color: #000;
+    border-width: 4px;
+    color: #000;
+}
+.btn_pax:hover{
+    background-color: #000; 
+    border-color: #000;
+}
+
+/* ------------------- Index ------------------ */
+.card_index{
+    text-align: left;
+    background-color: #1f628d;
+    padding: 30px;
+}
