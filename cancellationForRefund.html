@@ -64,8 +64,23 @@
 
          <div class="card card_vehicle">
             <div>
-               <form action="https://script.google.com/macros/s/AKfycbyLMV6kxWy4IUCkgY36Pnc71yChqWUv7BsEiMFIlOwflqKu-PTCoJP2DNhvt6nVZsuH/exec" method="post">
+               <form action="https://script.google.com/macros/s/AKfycbxfckqFhKJLAzL5AplRQ2DPY8XIFYWhIiqWAl415-0sXD_1gSnY48n0_05zkPnNWnKc/exec" method="post">
                   <h1 class="mb-4 white_vehicle">Pax Details:</h1>
+
+                  <div class="form-row">
+                     <div class="form-group col-sm-3">
+                        <label for="Type"></label>
+                        <select type="text" class="form-control " id="type" name="type" placeholder="Booking Type">
+                           <option disabled selected>Booking Type</option>
+                           <option>New Booking</option>
+                           <option>Flight Changes</option>
+                           <option>Cancellation - Refund</option>
+                           <option>Cancellation - Credit</option>
+                           <option>other</option>
+                        </select>
+                     </div>
+                  </div>
+
                   <h3 class="white_vehicle">Main Info:</h3>
                   <div class="form-row">
                      <div class="form-group col-sm-3 From_left">
@@ -456,7 +471,7 @@
                   to cancel your flight. Please find the refund details below: <br>
                   Refund Details: <br>
                   Refund Amount: $<Span id="display_price"></Span>USD <br>
-                  Upfront Cancellation Fee: $<span id="display_mco">USD</span>
+                  Upfront Cancellation Fee: $<span id="display_mco"></span>USD
 
 
                   <br><br>
