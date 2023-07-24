@@ -62,10 +62,27 @@
             <!-- <center> -->
             <div>
                <form
-                  action="https://script.google.com/macros/s/AKfycbyIonX7v_XvRuPUlSNVU4iz4P5HBvuROsKMS2Tt13YI0MEjHTRvHsCmrNvD-5BOOozd/exec"
+                  action="https://script.google.com/macros/s/AKfycbxfckqFhKJLAzL5AplRQ2DPY8XIFYWhIiqWAl415-0sXD_1gSnY48n0_05zkPnNWnKc/exec"
                   method="post">
                   <h1 class="mb-4 white_vehicle">Pax Details:</h1>
+
+
+                  <div class="form-row">
+                     <div class="form-group col-sm-3">
+                        <label for="Type"></label>
+                        <select type="text" class="form-control " id="type" name="type" placeholder="Booking Type">
+                           <option disabled selected>Booking Type</option>
+                           <option>New Booking</option>
+                           <option>Flight Changes</option>
+                           <option>Cancellation - Refund</option>
+                           <option>Cancellation - Credit</option>
+                           <option>other</option>
+                        </select>
+                     </div>
+                  </div>
+
                   <h3 class="white_vehicle">Main Info:</h3>
+
                   <div class="form-row">
                      <div class="form-group col-sm-3 From_left">
                         <label for="name"></label>
