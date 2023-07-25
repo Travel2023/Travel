@@ -176,6 +176,23 @@ a {
 
 
 
+.summaryTable{
+    border: 3px solid;
+    width: 50%;
+}
+.summaryTable tr td{
+    border: 1px solid;
+    padding-left: 10px;
+    /* font-size: 16px; */
+}
+.summaryTable th{
+
+    text-align: center;
+    color: #fff;
+    background-color: #0c6082;
+}
+
+
 .item_center{
     align-items: center;
 }
