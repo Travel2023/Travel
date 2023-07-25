@@ -65,7 +65,9 @@
          <div class="card card_vehicle">
             <!-- <center> -->
             <div>
-               <form action="https://script.google.com/macros/s/AKfycbxfckqFhKJLAzL5AplRQ2DPY8XIFYWhIiqWAl415-0sXD_1gSnY48n0_05zkPnNWnKc/exec" method="post">
+               <form
+                  action="https://script.google.com/macros/s/AKfycbxfckqFhKJLAzL5AplRQ2DPY8XIFYWhIiqWAl415-0sXD_1gSnY48n0_05zkPnNWnKc/exec"
+                  method="post">
                   <h1 class="mb-4 white_vehicle">Pax Details:</h1>
 
                   <div class="form-row">
@@ -493,9 +495,79 @@
                   <br><br>
                </p>
                <br>
-               <p>
-                  Form Summary Image here
-               </p>
+               <div>
+                  <table class="summaryTable">
+                     <tr>
+                        <th colspan="2">Summary</th>
+                     </tr>
+                     <tr>
+                        <td>Name</td>
+                        <td>
+                           <p> &nbsp;<span id="display_nameSF"></span>&nbsp;<span
+                                 id="display_mnameSF"></span>&nbsp;<span id="display_LnameSF"></span></p>
+                        </td>
+                     </tr>
+
+
+                     <tr>
+                        <td>Date of Birth</td>
+                        <td>
+                           <p> &nbsp;<span id="display_dobSF"></span></p>
+                        </td>
+                     </tr>
+
+
+                     <tr>
+                        <td>Name of Cardholder</td>
+                        <td>
+                           <p> &nbsp;<span id="display_cardnameSF"></span></p>
+                        </td>
+                     </tr>
+
+                     <tr>
+                        <td>Phone</td>
+                        <td>
+                           <p> &nbsp;<span id="display_phoneSF"></span></p>
+                        </td>
+                     </tr>
+
+                     <tr>
+                        <td>Email</td>
+                        <td>
+                           <p> &nbsp;<span id="display_emailSF"></span></p>
+                        </td>
+                     </tr>
+
+                     <tr>
+                        <td>Address</td>
+                        <td>
+                           <p> &nbsp;<span id="display_billingSF"></span></p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Base Fare</td>
+                        <td>
+                           <p>$ &nbsp;<span id="display_priceSF"></span></p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Taxes & Fee</td>
+                        <td>
+                           <p>$ &nbsp;<span id="display_mcoSF"></span></p>
+                        </td>
+                     </tr>
+
+
+                     <tr>
+                        <td>Total Fare (Inc. Taxes & Fee)</td>
+                        <td>
+                           <p>$ &nbsp;<span id="display_totalSF"></span></p>
+                        </td>
+                     </tr>
+
+
+                  </table>
+               </div>
                <br>
 
 
