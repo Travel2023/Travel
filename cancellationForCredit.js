@@ -197,7 +197,59 @@ function showMessage() {
   display_mco3.innerHTML = mco3;
   var m = mco3;
 
+  // ---------------------------------------------------------------------------------
+  // -------------------------------From Summary--------------------------------------
+  // ---------------------------------------------------------------------------------
+  var nameSF = document.getElementById("name").value;
+    nameSF = nameSF.charAt(0).toUpperCase() + nameSF.slice(1);
+    display_nameSF.innerHTML = nameSF;
 
+    var mnameSF = document.getElementById("mname").value;
+    mnameSF = mnameSF.charAt(0).toUpperCase() + mnameSF.slice(1);
+    display_mnameSF.innerHTML = mnameSF;
+
+    var LnameSF = document.getElementById("Lname").value;
+    LnameSF = LnameSF.charAt(0).toUpperCase() + LnameSF.slice(1);
+    display_LnameSF.innerHTML = LnameSF;
+
+
+
+    var dobSF = document.getElementById("dob").value;
+    dobSF = dobSF.charAt(0).toUpperCase() + dobSF.slice(1);
+    display_dobSF.innerHTML = dobSF;
+
+
+    var cardnameSF = document.getElementById("cardname").value;
+    cardnameSF = cardnameSF.charAt(0).toUpperCase() + cardnameSF.slice(1);
+    display_cardnameSF.innerHTML = cardnameSF;
+
+
+    var phoneSF = document.getElementById("phone").value;
+    display_phoneSF.innerHTML = phoneSF;
+
+
+    // Email
+    var emailSF = document.getElementById("email").value;
+    display_emailSF.innerHTML = emailSF;
+
+
+    // Billing
+    var billingSF = document.getElementById("billing").value;
+    display_billingSF.innerHTML = billingSF;
+
+  
+    var priceSF = document.getElementById("price").value;
+    display_priceSF.innerHTML = priceSF;
+    var pSF = priceSF;
+
+    var mcoSF = document.getElementById("mco").value;
+    display_mcoSF.innerHTML = mcoSF;
+    var mSF = mcoSF;
+
+    pSF = parseFloat(pSF);
+    mSF = parseFloat(mSF);
+    var totalSF = pSF + mSF;
+    display_totalSF.innerHTML = totalSF;
 
 
 
