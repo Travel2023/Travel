@@ -241,3 +241,40 @@ a {
     background-color: #1f628d;
     padding: 30px;
 }
+
+.css-button {
+	color: #ffffff;
+	font-size: 24px;
+	border-radius: 50px;
+	border: double 9px #ffffff;
+	text-decoration: none;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	font-family: monospace;
+	background: linear-gradient(264deg, #1f638d 32%, #1f638d 67%);
+	display: inline-flex;
+	align-items: center;
+	padding: 0;
+}
+.css-button:hover {
+	background: linear-gradient(264deg, #1f638d 32%, #1f638d 67%);
+}
+.css-button-text {
+	position: relative;
+	padding: 1px 150px;
+}
+.css-button-text1 {
+	position: relative;
+	padding: 1px 167px;
+}
+.css-button-text2 {
+	position: relative;
+	padding: 1px 158px;
+}
+.css-button-icon {
+	position: relative;
+	border-right: 1px solid #ffffff29;
+	box-shadow: inset rgb(0 0 0 / 14%) -1px 0 0;
+	padding: 1px 20px;
+}
