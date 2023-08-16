@@ -278,3 +278,8 @@ a {
 	box-shadow: inset rgb(0 0 0 / 14%) -1px 0 0;
 	padding: 1px 20px;
 }
+
+.topdate{
+    float: right;
+    padding-right: 30px;
+}
