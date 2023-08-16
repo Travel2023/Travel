@@ -241,6 +241,41 @@ function showMessage() {
     display_total1.innerHTML = total1;
 
 
+
+    var price2 = document.getElementById("price").value;
+    display_price2.innerHTML = price2;
+
+
+    var mco2 = document.getElementById("mco").value;
+    display_mco2.innerHTML = mco2;
+
+
+    // Airline
+    var airline1 = document.getElementById("airline").value;
+    display_airline1.innerHTML = airline1;
+
+    var agent1 = document.getElementById("agent").value;
+    display_agent1.innerHTML = agent1;
+
+
+    // top date
+    var time1= document.getElementById("time").value;
+    display_time1.innerHTML = time1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //////////////////////////////// TO TL
     // Ticket mco
     var mco3 = document.getElementById("mco").value;
