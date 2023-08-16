@@ -316,7 +316,7 @@
                               <option value="2021">2021</option>
                               <option value="2022">2022</option>
                               <option value="2023">2023</option>
-                              <option value="2023">2024</option>
+                              <option value="2024">2024</option>
                               <option value="2025">2025</option>
                               <option value="2026">2026</option>
                               <option value="2027">2027</option>
@@ -368,7 +368,7 @@
                      </div>
                      <div class="form-group col-sm-12">
                         <label for="time" class="white_vehicle">Select Current time: </label>
-                        <input class="form-control" type="datetime-local" id="time" name="time" min="09:00" max="18:00"
+                        <input class="form-control" type="date" id="time" name="time" min="09:00" max="18:00"
                            placeholder="Time-Now">
                      </div>
                      <div class="form-group col-sm-3">
@@ -383,18 +383,16 @@
                         <label for="Agent Name"></label>
                         <select type="text" class="form-control " id="agent" name="agent" placeholder="Agent Name">
                            <option disabled selected>Agent Name</option>
-                           <option>Ken (TL)</option>
-                           <option>Eric (TL)</option>
-                           <option>Aurthur (TL)</option>
-                           <option>Hayden (English)</option>
-                           <option>Denver (English)</option>
-                           <option>Jack (English)</option>
-                           <option>Finn (English)</option>
-                           <option>Chris (English)</option>
-                           <option>Sarah (English)</option>
-                           <option>Dennis (English)</option>
-                           <option>Mario (Spanish)</option>
-                           <option>Juan (Spanish)</option>
+                           <option>Isaac Blake </option>
+                           
+                           <option>Arthur Morris </option>
+                           <option>Hayden Green </option>
+                           <option>Denver Smith </option>
+                           <option>Myles Carther </option>
+                     
+                           <option>Chris Hobb </option>
+                           <option>Bryan Smith </option>
+                           <option>Robin Bourdon </option>
                            <option>Other</option>
                         </select>
                      </div>
@@ -424,6 +422,10 @@
                               <input class="btn btn-primary btn-lg btn-block rounded w-md mt-3 btn_vehicle"
                                  type="submit" id="sub">
                            </div>
+                           <!-- <div class=" col-sm-4">
+                              <input class="btn btn-primary btn-lg btn-block rounded w-md mt-3 btn_vehicle"
+                                 type="submit" id="sub" formaction="https://script.google.com/macros/s/AKfycbzZ4e1lqC9ZrGpUI6AhAkSAyEBB9aYHxtoTOW4Eypd1Anr0bPBmhIhzfX6rHUuXH-mD/exec">
+                           </div> -->
 
                         </div>
 
@@ -442,6 +444,9 @@
          <div class="card_pax card">
 
             <div class="about_taital_main" id="demoB">
+               <p class="topdate">
+                  Date: <span  id="display_time1"></span>
+               </p>
                <p class="about_text" align="justify">Dear
                   <span id="display_name"></span>
                   <span id="display_mname"></span>
@@ -633,50 +638,70 @@
                   confidentiality
                   and adhere to strict security protocols.
                   <br><br>
-                  Terms and Conditions:
-                  <br><br>
-                  -Payment Authorisation: By replying to this email with your payment details, you authorise us
-                  to
-                  charge the provided credit card for the total amount mentioned above. <br>
-                  -Changes and cancellations to bookings are subject to the terms and conditions of the
-                  respective
-                  travel service providers. <br>
-                  -The customer may be responsible for fees, penalties, or fare differences imposed by the
-                  travel
-                  service providers for changes or cancellations. <br>
-                  -The Agency strongly recommends that customers obtain travel insurance to protect against
-                  unforeseen events, such as trip cancellations, medical emergencies, or lost baggage. <br>
-                  -The purchase of travel insurance is optional and the responsibility of the customer. <br>
-                  -The customer is responsible for obtaining and ensuring the validity of all required travel
-                  documents, such as passports, visas, and health certificates. <br>
-                  -The Agency may provide general information and assistance regarding travel documents, but it
-                  is
-                  the customer's responsibility to verify specific requirements with the relevant authorities.
-                  <br>
-                  -Non-Refundable Service Fee: Please note that the service fee associated with this booking is
-                  non-refundable, even if you decide to cancel or modify your reservation. <br>
-                  <br><br>
+                  
 
                </p>
                <p>
 
-                  ( I, <span id="display_name2"></span>&nbsp;
+                  I, <span id="display_name2"></span>&nbsp;
                   <span id="display_mname2"></span>&nbsp;
                   <span id="display_Lname2"></span>
                   , hereby authorize
-                  to charge the total amount of $<span id="display_total1"></span> on which difference in fare
-                  $<span id="display_price1"></span> + $<span id="display_mco1"></span> taxes and fee on my
-                  credit
-                  card number
-                  ending with "<Span id="display_cardno1"></Span>" for flight Booking. ) <br><br>
+                  to charge the total amount of $<span id="display_total1"></span> on which base fare
+                  $<span id="display_price1"></span> + $<span id="display_mco1"></span> taxes and fee on my credit card
+                  number ending with "<Span id="display_cardno1"></Span>" for flight Booking. 
+                  Please note that the total amount will be charged in two different transactions on which $<span
+                     id="display_price2"></span> USD will
+                  be charged under "<b><span id="display_airline1"></span></b>" and rest $<span id="display_mco2"></span> USD
+                  will be charged under "<b>Cheapofareshop-Cheapowings</b>". <br>
+
+                  <br><br>
+                  <b>Terms and Conditions:</b> 
+                  <br><br>
+
+                  - Airline tickets are non-refundable, non-changeable and non-cancellable. In certain cases, an airline
+                  may allow a ticket to be changed for a fee, plus the increased cost of the new ticket. <br>
+
+                  - Changes: Call us at <b>+1 888-462-3949</b>  to make any kind of changes in the itinerary. Fees will apply
+                  due to penalties, fare differences, and other factors in order to change the itinerary. <br>
+
+                  - Seats Assignments: Most of the classes have restricted rules for advance seat assignment and can
+                  only
+                  be done with a fee. Some fare restrictions only allow seats assignment with a fee at the airport
+                  during the time of check in. Please refer to each individual class of service for most restricted
+                  rules. <br>
+
+                  - Baggage Policy: Your reservation may have restricted baggage allowance and in some classes there
+                  might
+                  be a charge of additional fee for each allowed checked in or carry-on bags. Please refer to booked
+                  class of service for most restricted rules. <br>
+
+                  - Visa/Travel Documents: All customers are advised to verify travel documents (transit visa/entry
+                  visa)
+                  for the country through which they are transiting and/or entering. We will not be responsible if
+                  proper travel documents are not available and you are denied entry or transit into a Country. We
+                  request you to consult the embassy of the country(s) you are visiting or transiting through. Please
+                  visit TSA for any questions regarding this, as well as information on check in procedures and airport
+                  security. <br>
+
+                  - Check-In: We recommend arriving at the airport 3 hours prior to your departure for international
+                  flights and 90 minutes prior to your departure for domestic flights. For most updated check in rules,
+                  please contact Airlines or TSA directly. <br>
+
+                  - Please Note: Your credit card maybe billed in multiple charges not exceeding the total amount. All
+                  transaction service fees are 100% non-refundable. <br>
+                  <br><br>
 
 
+                  Please carefully review these terms and conditions before engaging with our services.
+                  For any further assistance, please contact us at <b>+1 888-462-3949</b> . or you can also reach us at
+                  <b>support@travelairsupport.com</b> .
+                  We are here to assist you throughout your travel journey.
+                  <br><br> 
+                  Thanks and Regards <br>
+                  <span id="display_agent1"></span> <br>
 
-                  Please carefully review these terms and conditions before engaging with our services.If
-                  you have
-                  any questions or require further assistance, please do not hesitate to reach out to our
-                  customer
-                  support team at 1855 7383 988 . We are here to assist you throughout your travel journey.
+                  Reservation Desk 
                </p>
             </div>
             <div class="row">
