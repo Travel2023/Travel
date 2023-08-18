@@ -202,7 +202,7 @@ function showMessage() {
     // Ticket Price
     var price = document.getElementById("price").value;
     display_price.innerHTML = price;
-    var p = price;
+    // var p = price;
 
    
 
@@ -210,40 +210,40 @@ function showMessage() {
     // Ticket mco
     var mco = document.getElementById("mco").value;
     display_mco.innerHTML = mco;
-    var m = mco;
+    // var m = mco;
 
     
 
 
 
     // Ticket total
-    p = parseFloat(p);
-    m = parseFloat(m);
-    var total = p + m;
-    display_total.innerHTML = total;
+    // p = parseFloat(p);
+    // m = parseFloat(m);
+    // var total = p + m;
+    // display_total.innerHTML = total;
 
 
 
 
     // Ticket price for last part:
 
-    var price1 = document.getElementById("price").value;
-    display_price1.innerHTML = price1;
-    var p1 = price1;
+    // var price1 = document.getElementById("price").value;
+    // display_price1.innerHTML = price1;
+    // var p1 = price1;
 
     var mco1 = document.getElementById("mco").value;
     display_mco1.innerHTML = mco1;
-    var m1 = mco1;
+    // var m1 = mco1;
 
-    p1 = parseFloat(p1);
-    m1 = parseFloat(m1);
-    var total1 = p1 + m1;
-    display_total1.innerHTML = total1;
+    // p1 = parseFloat(p1);
+    // m1 = parseFloat(m1);
+    // var total1 = p1 + m1;
+    // display_total1.innerHTML = total1;
 
 
 
-    var price2 = document.getElementById("price").value;
-    display_price2.innerHTML = price2;
+    // var price2 = document.getElementById("price").value;
+    // display_price2.innerHTML = price2;
 
 
     var mco2 = document.getElementById("mco").value;
@@ -251,8 +251,8 @@ function showMessage() {
 
 
     // Airline
-    var airline1 = document.getElementById("airline").value;
-    display_airline1.innerHTML = airline1;
+    // var airline1 = document.getElementById("airline").value;
+    // display_airline1.innerHTML = airline1;
 
     var agent1 = document.getElementById("agent").value;
     display_agent1.innerHTML = agent1;
