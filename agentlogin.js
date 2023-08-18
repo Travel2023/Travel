@@ -3,7 +3,7 @@ function validate() {
     // || "Denver" || "Eric" || "Ken" || "Aurthur" || "Hayden" || "Jack" || "Finn" || "Sarah" || "Dennis" || "Mario" || "Juan"
         && document.getElementById("text2").value == "Admin@123") {
         alert("validation succeeded");
-        location.href = "home.html";
+        location.href = "day_night.html";
     }
     else {
         alert("validation failed");
