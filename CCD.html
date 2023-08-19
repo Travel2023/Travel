@@ -43,7 +43,7 @@
     <!-- Font awesome -->
     <link href="assets/css/font-awesome.css" rel="stylesheet">
 
-    <script src="FCD.js"></script>
+    <script src="CCD.js"></script>
 </head>
 
 <body>
@@ -56,7 +56,8 @@
     <div class="about_section layout_padding vehicle_card_padding">
         <div class="container-fluid">
             <center>
-                <h1 class="about_taital"><span class="blue">{</span> Flight Changes <span class="blue">}</span></h1>
+                <h1 class="about_taital"><span class="blue">{</span> Cancellation for Credit<span class="blue">}</span>
+                </h1>
             </center>
             <div class="card card_vehicle">
                 <!-- <center> -->
@@ -560,7 +561,6 @@
 
 
 
-
                             <div class="form-group col-sm-6">
                                 <label for="Travel Date"></label>
                                 <input type="date" class="form-control " id="date" name="date"
@@ -594,7 +594,7 @@
                             <div class="form-group col-sm-3">
                                 <label for="Ticket Price"></label>
                                 <input type="number" class="form-control " id="price" name="price"
-                                    placeholder="Fare Difference">
+                                    placeholder="Credit Amount">
                             </div>
                             <div class="form-group col-sm-3">
                                 <label for="MCO"></label>
@@ -674,17 +674,13 @@
                         <span id="display_mname"></span>
                         <span id="display_Lname"></span>,
                         <br><br>
-                        We hope this email finds you well. We are excited to provide you with the flight itinerary for
-                        your upcoming journey. Additionally, we would like to share the details of the charges,
-                        including the difference in fare and taxes. Furthermore, we kindly request your authorization by
-                        replying with either "I agree" or "I authorize" to confirm your acceptance of the charges.
-                        Please review the information below:
+                        We hope this email finds you well. We understand that circumstances may change, and we
+                        appreciate you notifying us of your decision to cancel your flight. Additionally, we would like
+                        to share the details of the charges, including the credit details. Furthermore, we kindly
+                        request your authorization by replying with either "I agree" or "I authorize" to confirm your
+                        acceptance of the charges. Please review the information below:
                         <br><br>
-                        Please read the following details carefully regarding your upcoming travel. It is important to
-                        review these details to ensure accuracy. If you notice any errors or require any changes, kindly
-                        contact us immediately. Once the tickets are booked, any modifications or cancellations will be
-                        subject to the policy of the airlines.
-                        <br><br>
+
                         <b>Flight Itinerary:</b>
                         <br><br>
                         <b>Image Here</b>
@@ -692,38 +688,39 @@
                     <p>-----------------------------------------------------------------</p>
                     <!-- <span id="display_price"></span> -->
                     </p>
-                    <p>
-                        Please take the time to verify that the passenger name(s), travel date, origin and destination
-                        cities, as well as the flight details, are correct. If you identify any discrepancies or require
-                        any adjustments, kindly inform us as soon as possible. We will do our best to accommodate your
-                        requests, subject to the terms and conditions set by the airlines.
-                    </p>
+
                     <div>
                         <table class="firstTable">
                             <tr>
-                                <th colspan="2">Payment Details</th>
+                                <th colspan="2">Airlines Credit Details</th>
                             </tr>
                             <tr>
-                                <td>Fare Difference</td>
+                                <td>Credit Amount</td>
                                 <td>
                                     <p>$ &nbsp;<span id="display_price"></span></p>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Taxes & Fee</td>
+                                <td>Cancellation Fee </td>
                                 <td>
                                     <p>$ &nbsp;<span id="display_mco"></span></p>
                                 </td>
                             </tr>
                             <tr>
-                                <td>Total (Inc Taxes & Fee)</td>
+                                <td>Expiration Date</td>
                                 <td>
-                                    <p>$ &nbsp;<span id="display_total"></span></p>
+                                    <p>365 Days(From the date of booking)</p>
                                 </td>
                             </tr>
                         </table>
                     </div>
                     <br>
+                    <br>
+                    <p>
+                        Please take the time to verify the refund details, If you identify any discrepancies or require
+                        any adjustments, kindly inform us as soon as possible. We will do our best to accommodate your
+                        requests, subject to the terms and conditions set by the airlines.
+                    </p>
                     <br>
                     <div>
                         <table class="firstTable">
@@ -807,13 +804,10 @@
                         <span id="display_mname2"></span>&nbsp;
                         <span id="display_Lname2"></span>
                         , hereby authorize
-                        to charge the total amount of $<span id="display_total1"></span> on which base fare
-                        $<span id="display_price1"></span> + $<span id="display_mco1"></span> taxes and fee on my credit
+                        to charge the total amount of $<span id="display_mco1"></span> on my credit
                         card
-                        number ending with "<Span id="display_cardno1"></Span>" for flight Booking.
-                        Please note that the total amount will be charged in two different transactions on which $<span
-                            id="display_price2"></span> USD will
-                        be charged under "<b><span id="display_airline1"></span></b>" and rest $<span
+                        number ending with "<Span id="display_cardno1"></Span>" for flight cancellation.
+                        Please note that the total amount will be charged in one transactions on which $<span
                             id="display_mco2"></span> USD
                         will be charged under "<b>Cheapofareshop-Cheapowings</b>". <br>
                     </p>
@@ -877,34 +871,35 @@
                         <b>Terms and Conditions:</b>
                         <br><br>
 
-                        -Payment Authorisation: By replying to this email with your payment details, you authorise us to
-                        charge the provided credit card for the total amount mentioned above. <br>
+                        - The airline's credit is valid for a period of 1 year from the date of cancellation. After this
+                        period, the credit will expire, and it will no longer be applicable for rebooking. <br>
 
-                        -Changes and cancellations to bookings are subject to the terms and conditions of the respective
-                        travel service providers. <br>
+                        - The validity period is determined by the airline and cannot be extended or renewed beyond the
+                        specified duration. <br>
 
-                        -The customer may be responsible for fees, penalties, or fare differences imposed by the travel
-                        service providers for changes or cancellations. <br>
+                        - The airline's credit can only be utilized for future flight bookings with the same airline. <br>
 
-                        -The Agency strongly recommends that customers obtain travel insurance to protect against
-                        unforeseen events, such as trip cancellations, medical emergencies, or lost baggage. <br>
+                        - The passenger is required to pay for any additional charges, such as increased fares or taxes,
+                        at the time of rebooking using the airline's credit. <br>
 
-                        -The purchase of travel insurance is optional and the responsibility of the customer. <br>
+                        - The airline's credit is non-transferable and can only be used by the same passenger who was
+                        originally booked on the cancelled flight. <br>
 
-                        -The customer is responsible for obtaining and ensuring the validity of all required travel
-                        documents, such as passports, visas, and health certificates. <br>
+                        - Once the airline's credit is used for rebooking, it becomes non-refundable. No cash refunds or
+                        credit balance will be issued for any remaining amount. <br>
 
-                        -The Agency may provide general information and assistance regarding travel documents, but it is
-                        the customer's responsibility to verify specific requirements with the relevant authorities. <br>
+                        - In the event of a subsequent cancellation or change made to the rebooked flight, the airline's
+                        policies and any associated fees or penalties will apply. <br>
 
-                        -Non-Refundable Service Fee: Please note that the service fee associated with this booking is
-                        non-refundable, even if you decide to cancel or modify your reservation. <br>
+                        - Airline tickets are non-refundable, non-changeable and non-cancellable. In certain cases, an
+                        airline may allow a ticket to be changed for a fee, plus the increased cost of the new ticket. <br>
 
-                        - Changes: Call us at +1 855-928-3709 to make any kind of changes in the itinerary. Fees will
+                        - Changes: Call us at +1 888-462-3949 to make any kind of changes in the itinerary. Fees will
                         apply due to penalties, fare differences, and other factors in order to change the itinerary. <br>
 
                         - All transaction service fees are 100% non-refundable. <br>
-                        <br><br>
+                        
+                        <br><br> 
 
 
                         Please carefully review these terms and conditions before engaging with our services.
